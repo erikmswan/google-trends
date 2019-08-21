@@ -7,7 +7,10 @@ console.log('argv', argv);
 // Possible args:
 // --all
 // --related-queries
+// --related-topics
 // --daily-trends
+// --interest-over-time
+// --interest-by-region
 
 const keyword = argv._[0];
 const startTime = new Date('2018-01-01');
