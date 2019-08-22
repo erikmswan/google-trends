@@ -20,7 +20,7 @@ if (argv['related-queries'] === true || doAll) {
   trends.relatedQueries({
     keyword,
     startTime,
-    geo: 'US'
+    // geo: 'US'
   }, (err, result) => {
     if (err) {
       console.log(err);
@@ -36,7 +36,7 @@ if (argv['related-topics'] === true || doAll) {
   trends.relatedTopics({
     keyword,
     startTime,
-    geo: 'US'
+    // geo: 'US'
   }, (err, result) => {
     if (err) {
       console.log(err);
@@ -82,7 +82,7 @@ if (argv['interest-by-region'] === true || doAll) {
   trends.interestByRegion({
     keyword,
     startTime,
-    geo: 'US',
+    // geo: 'US',
     resolution: 'CITY'
   }, (err, result) => {
     if (err) {
