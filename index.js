@@ -20,7 +20,7 @@ if (argv['related-queries'] === true || doAll) {
   trends.relatedQueries({
     keyword,
     startTime,
-    // geo: 'US'
+    // geo: 'US-NY'
   }, (err, result) => {
     if (err) {
       console.log(err);
@@ -36,7 +36,7 @@ if (argv['related-topics'] === true || doAll) {
   trends.relatedTopics({
     keyword,
     startTime,
-    // geo: 'US'
+    // geo: 'US-NY'
   }, (err, result) => {
     if (err) {
       console.log(err);
@@ -94,11 +94,3 @@ if (argv['interest-by-region'] === true || doAll) {
     })
   });
 }
-
-
-// relatedQueries
-// relatedTopics
-// dailyTrends
-// interestOverTime
-// interestByRegion
-// realTimeTrends
